@@ -1,0 +1,5 @@
+List of bugs:
+1.	isEmpty() doesn’t return true on an empty list, but returns false for a non-empty list. There is either a bug that affects an empty list or the method just returns false no matter what.
+2.	Size() never returns the correct size, but always the correct size + 1.
+3.	removeFront() does remove an item from the list, but not from the front. Rather, it seems to remove an item from the back of the list.
+4.	~LinkedList() doesn’t seem to delete all elements from the list. There seems to be a bug that removes all of the elements except for one.
